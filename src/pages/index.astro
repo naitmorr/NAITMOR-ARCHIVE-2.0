@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config/site';
+---
+
+<BaseLayout>
+  <main class="foundation">
+    <p class="eyebrow">Техническая основа · Этап 1</p>
+    <h1>{siteConfig.name}</h1>
+    <p>{siteConfig.description}</p>
+    <p>Проект находится в разработке. Материалы архива будут добавлены на следующих этапах.</p>
+  </main>
+</BaseLayout>

@@ -1,0 +1,36 @@
+@import './tokens.css';
+@import './typography.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-abyss);
+  color: var(--color-ash);
+  font-family: var(--font-interface);
+  line-height: 1.6;
+}
+
+.foundation {
+  width: min(100% - 2rem, 60rem);
+  margin-inline: auto;
+  padding-block: clamp(3rem, 12vw, 8rem);
+}
+
+h1 {
+  font-size: clamp(1.75rem, 6vw, 3rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.eyebrow,
+a {
+  color: var(--color-copper);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-copper);
+  outline-offset: 4px;
+}

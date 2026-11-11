@@ -1,0 +1,6 @@
+/* Local Cinzel, Cormorant Garamond and Manrope files belong to the design stage. */
+:root {
+  --font-interface: 'Manrope', system-ui, sans-serif;
+  --font-archive: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Cinzel', Georgia, serif;
+}

@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/urls';
+---
+
+<BaseLayout title="Страница не найдена — NAITMOR // ARCHIVE 2.0" noindex>
+  <main class="foundation">
+    <p class="eyebrow">404</p>
+    <h1>Страница не найдена</h1>
+    <p>Проверьте адрес или вернитесь на главную страницу.</p>
+    <a href={withBase()}>На главную</a>
+  </main>
+</BaseLayout>
