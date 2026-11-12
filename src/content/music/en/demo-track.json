@@ -1,0 +1,21 @@
+{
+  "locale": "en",
+  "entryKey": "demo-track",
+  "translationKey": "demo-track",
+  "title": "DEMO: Test track",
+  "summary": "Test entry for architecture validation. Not NAITMOR canon.",
+  "draft": true,
+  "demo": true,
+  "tags": [
+    "demo"
+  ],
+  "kind": "track",
+  "artist": "DEMO",
+  "durationSeconds": 60,
+  "related": {
+    "lore": [
+      "en/demo-concept"
+    ]
+  }
+}
+

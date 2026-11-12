@@ -1,0 +1,13 @@
+locale: "ru"
+entryKey: "demo-track"
+translationKey: "demo-track"
+title: "DEMO: Тестовый трек"
+summary: "Тестовая запись для проверки архитектуры. Не является каноном NAITMOR."
+draft: true
+demo: true
+tags: ["demo"]
+kind: "track"
+artist: "DEMO"
+durationSeconds: 60
+related: {"lore":["ru/demo-concept"]}
+

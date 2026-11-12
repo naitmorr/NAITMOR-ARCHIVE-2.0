@@ -1,0 +1,12 @@
+locale: "en"
+entryKey: "demo-artwork"
+translationKey: "demo-artwork"
+title: "DEMO: Test artwork metadata"
+summary: "Test entry for architecture validation. Not NAITMOR canon."
+draft: true
+demo: true
+tags: ["demo"]
+kind: "concept"
+creators: [{"name":"DEMO"}]
+related: {"characters":["en/demo-character-alpha"],"music":["en/demo-album"]}
+
